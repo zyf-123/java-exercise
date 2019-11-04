@@ -13,7 +13,7 @@
 </bootpath>
 <extensionDirs>
 <entry path="C:\jdk1.6.0_45\jre\lib\ext"/>
-<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\jdk1.6.0_45\jre\lib\endorsed"/>

@@ -1,48 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="23" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="289" y="89">
+<window height="728" width="1024" x="205" y="4">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="153" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="222" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1568913718158" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1567934696379" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="hello.java" partName="hello.java" title="hello.java" tooltip="C:\Users\Administrator\Desktop\hello\src\hello\hello.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Administrator/Desktop/hello/src/hello/hello.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="63" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_1.java" partName="_1.java" path="F:/java workspace/java 程序设计书籍课后题/src/第一章/_1.java" title="_1.java" tooltip="java 程序设计书籍课后题/src/第一章/_1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java 程序设计书籍课后题/src/第一章/_1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_2.java" partName="_2.java" path="F:/java workspace/java 程序设计书籍课后题/src/第一章/_2.java" title="_2.java" tooltip="java 程序设计书籍课后题/src/第一章/_2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java 程序设计书籍课后题/src/第一章/_2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="177" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_9.java" partName="_9.java" path="F:/java workspace/java 程序设计书籍课后题/src/第一章/_9.java" title="_9.java" tooltip="java 程序设计书籍课后题/src/第一章/_9.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java 程序设计书籍课后题/src/第一章/_9.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="194" selectionTopPixel="21"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="94" org.eclipse.ui.ide.markerType="139" org.eclipse.ui.ide.pathField="184" org.eclipse.ui.ide.resourceField="139" org.eclipse.ui.ide.severityAndDescriptionField="450"/>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -93,9 +120,11 @@
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -154,6 +183,7 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
@@ -171,7 +201,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@677ea2" ratio="0.749497" ratioLeft="745" ratioRight="249" relationship="2" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@62af46" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
@@ -179,24 +209,25 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24949698" ratioLeft="248" ratioRight="746" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7495961" ratioLeft="464" ratioRight="155" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7491749" ratioLeft="454" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e1df6e" ratio="0.74932975" ratioLeft="559" ratioRight="187" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3a3e1b" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -204,7 +235,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.5" ratioLeft="232" ratioRight="232" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e1df6e">
+<info folder="true" part="right" ratio="0.5" ratioLeft="227" ratioRight="227" relationship="4" relative="org.eclipse.ui.internal.ViewStack@3a3e1b">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -219,7 +250,142 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/HelloWorld/bin/HelloWorld"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/HelloWorld/src/HelloWorld"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/demo/HelloWorld.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/cc/kw.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" uri="file:/C:/Users/Administrator/Desktop/Bank/.project"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" uri="file:/C:/Users/Administrator/Desktop/Bank/bin/abc/Test.class"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" uri="file:/E:/hello/.project"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.core.runtime.xml.source" uri="file:/E:/hello/.project"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" uri="file:/C:/Users/Administrator/Desktop/hello/.project"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" uri="file:/C:/Users/Administrator/Desktop/hello/bin/hello/hello.class"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/C:/Users/Administrator/Desktop/hello/src/hello/hello.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java 程序设计书籍课后题/src/第一章/_1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java 程序设计书籍课后题/src/第一章/_2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java 程序设计书籍课后题/src/第一章/_9.java"/>
+</editors>
+<item historyLabel="HelloWorld" index="0">
+<position info="not_deleted" x="134" y="0"/>
+</item>
+<item historyLabel="HelloWorld" index="1">
+<position info="not_deleted" x="135" y="0"/>
+</item>
+<item historyLabel="HelloWorld" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWorld" index="1">
+<position info="not_deleted" x="135" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="190" y="0"/>
+</item>
+<item historyLabel="kw.java" index="3">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="158" y="34"/>
+</item>
+<item historyLabel="kw.java" index="3">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="158" y="34"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="8" y="4"/>
+</item>
+<item historyLabel=".project" index="4"/>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="8" y="4"/>
+</item>
+<item historyLabel="Test.class" index="5"/>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="8" y="4"/>
+</item>
+<item historyLabel=".project" index="6">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel=".project" index="7">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel=".project" index="7">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="2">
+<position info="not_deleted" x="8" y="4"/>
+</item>
+<item historyLabel=".project" index="8"/>
+<item historyLabel="hello.class" index="9"/>
+<item historyLabel="hello.java" index="10">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="_1.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="_1.java" index="11">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="_1.java" index="11">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="_1.java" index="11">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="_1.java" index="11">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="202" y="10"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="_2.java" index="12">
+<position info="not_deleted" x="177" y="0"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="199" y="0"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="189" y="5"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="300" y="6"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="_9.java" index="13">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item active="true" historyLabel="_9.java" index="13">
+<position info="not_deleted" x="311" y="5"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -236,8 +402,44 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="snake.java" tooltip="C:\java work\Snake\src\snake.java">
-<persistable uri="file:/C:/java%20work/Snake/src/snake.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_9.java" tooltip="java 程序设计书籍课后题/src/第一章/_9.java">
+<persistable path="/java 程序设计书籍课后题/src/第一章/_9.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_2.java" tooltip="java 程序设计书籍课后题/src/第一章/_2.java">
+<persistable path="/java 程序设计书籍课后题/src/第一章/_2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_1.java" tooltip="java 程序设计书籍课后题/src/第一章/_1.java">
+<persistable path="/java 程序设计书籍课后题/src/第一章/_1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="hello.java" tooltip="C:\Users\Administrator\Desktop\hello\src\hello\hello.java">
+<persistable uri="file:/C:/Users/Administrator/Desktop/hello/src/hello/hello.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="hello.class" tooltip="C:\Users\Administrator\Desktop\hello\bin\hello\hello.class">
+<persistable uri="file:/C:/Users/Administrator/Desktop/hello/bin/hello/hello.class"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name=".project" tooltip="C:\Users\Administrator\Desktop\hello\.project">
+<persistable uri="file:/C:/Users/Administrator/Desktop/hello/.project"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name=".project" tooltip="E:\hello\.project">
+<persistable uri="file:/E:/hello/.project"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Test.class" tooltip="C:\Users\Administrator\Desktop\Bank\bin\abc\Test.class">
+<persistable uri="file:/C:/Users/Administrator/Desktop/Bank/bin/abc/Test.class"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name=".project" tooltip="C:\Users\Administrator\Desktop\Bank\.project">
+<persistable uri="file:/C:/Users/Administrator/Desktop/Bank/.project"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="kw.java" tooltip="HelloWorld/src/cc/kw.java">
+<persistable path="/HelloWorld/src/cc/kw.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="HelloWorld/src/demo/HelloWorld.java">
+<persistable path="/HelloWorld/src/demo/HelloWorld.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="HelloWorld" tooltip="HelloWorld/src/HelloWorld">
+<persistable path="/HelloWorld/src/HelloWorld"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="HelloWorld" tooltip="HelloWorld/bin/HelloWorld">
+<persistable path="/HelloWorld/bin/HelloWorld"/>
 </file>
 </mruList>
 </workbench>

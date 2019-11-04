@@ -1,29 +1,63 @@
-!SESSION 2019-10-12 15:08:16.216 -----------------------------------------------
+!SESSION 2019-11-04 09:03:00.640 -----------------------------------------------
 eclipse.buildId=M20110210-1200
 java.version=1.6.0_45
 java.vendor=Sun Microsystems Inc.
 BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
-Framework arguments:  -product org.eclipse.epp.package.java.product C:\java work\Snake\.project
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product C:\java work\Snake\.project
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.ui 4 0 2019-10-12 15:09:29.262
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NullPointerException
-	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:593)
-	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:465)
-	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
-	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
-	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
-	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
-	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+!ENTRY org.eclipse.ui 4 0 2019-11-04 09:08:28.149
+!MESSAGE Unable to create editor ID org.eclipse.jdt.ui.ClassFileEditor: The Class File Viewer cannot handle the given input ('org.eclipse.ui.ide.FileStoreEditorInput').
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Class File Viewer cannot handle the given input ('org.eclipse.ui.ide.FileStoreEditorInput').
+	at org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor.doSetInput(ClassFileEditor.java:646)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3043)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2606)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3061)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3088)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:798)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:313)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1254)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1207)
+	at org.eclipse.ui.internal.PartStack.showPart(PartStack.java:1606)
+	at org.eclipse.ui.internal.PartStack.add(PartStack.java:497)
+	at org.eclipse.ui.internal.EditorStack.add(EditorStack.java:103)
+	at org.eclipse.ui.internal.PartStack.add(PartStack.java:483)
+	at org.eclipse.ui.internal.EditorStack.add(EditorStack.java:112)
+	at org.eclipse.ui.internal.EditorSashContainer.addEditor(EditorSashContainer.java:63)
+	at org.eclipse.ui.internal.EditorAreaHelper.addToLayout(EditorAreaHelper.java:225)
+	at org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:213)
+	at org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:778)
+	at org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:677)
+	at org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:638)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2860)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2768)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2760)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2711)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2707)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2691)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2674)
+	at org.eclipse.ui.ide.IDE.openEditorOnFileStore(IDE.java:1155)
+	at org.eclipse.ui.internal.ide.actions.OpenLocalFileAction.run(OpenLocalFileAction.java:107)
+	at org.eclipse.ui.internal.ide.actions.OpenLocalFileAction.run(OpenLocalFileAction.java:76)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
 	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
 	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
 	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
-	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
@@ -48,112 +82,5 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
-!SESSION 2019-10-16 10:04:44.799 -----------------------------------------------
-eclipse.buildId=M20110210-1200
-java.version=1.6.0_45
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:55:29.876
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]]
-	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
-	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
-	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:55:29.878
-!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]
-!SESSION 2019-10-16 15:17:42.890 -----------------------------------------------
-eclipse.buildId=M20110210-1200
-java.version=1.6.0_45
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 15:18:33.784
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]]
-	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
-	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
-	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 15:18:33.786
-!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]
-!SESSION 2019-10-16 16:02:59.078 -----------------------------------------------
-eclipse.buildId=M20110210-1200
-java.version=1.6.0_45
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 16:11:02.213
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [Unknown javadoc format for Class {key=Ljava/lang/Class;} [in Class.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]]
-	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
-	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
-	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 16:11:02.215
-!MESSAGE Unknown javadoc format for Class {key=Ljava/lang/Class;} [in Class.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 16:32:13.168
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]]
-	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
-	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
-	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 16:32:13.168
-!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]
-!SESSION 2019-10-23 10:15:18.555 -----------------------------------------------
-eclipse.buildId=M20110210-1200
-java.version=1.6.0_45
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-23 20:41:52.726
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [Unknown javadoc format for System [in System.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]]
-	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
-	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-23 20:41:52.742
-!MESSAGE Unknown javadoc format for System [in System.class [in java.lang [in C:\jdk1.6.0_45\jre\lib\rt.jar]]]
+!SUBENTRY 1 org.eclipse.jdt.ui 4 996 2019-11-04 09:08:28.151
+!MESSAGE The Class File Viewer cannot handle the given input ('org.eclipse.ui.ide.FileStoreEditorInput').
